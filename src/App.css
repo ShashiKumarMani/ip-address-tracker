@@ -11,6 +11,10 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+.App {
+    position: relative;
+}
+
 header {
     width: 100%;
     height: 300px;
@@ -55,4 +59,38 @@ header button {
     border-radius: 0 10px 10px 0;
     border: none;
     background-color: #000;
+}
+
+.ip-info {
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    padding: 1rem;
+    border: 1px green dashed;
+    /* position: absolute; */
+    transform: translateY(-50%);
+    background-color: #FFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    border: 1px red dashed;
+    width: 25%;
+}
+
+.card-title {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.card-info {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.location, .timezone, .isp {
+    border-left: 1px red solid;
 }
